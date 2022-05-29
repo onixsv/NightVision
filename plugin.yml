@@ -1,0 +1,15 @@
+name: SeePlayer
+main: SeePlayer\SeePlayer
+version: B1
+author: Sanea
+api: 4.0.0
+
+commands:
+  야간투시:
+    description: 보다 더 밝은 오닉스서버를 플레이 하세요!
+    permission: see.user.command
+
+permissions:
+  see.user.command:
+    description: "USER"
+    default: true
